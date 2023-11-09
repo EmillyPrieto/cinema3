@@ -13,17 +13,24 @@ h1 {
 
 .movie-card {
     width: 30%;
-    border: 1px solid #ccc;
+    background-color: rgb(233, 233, 233);
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
     margin: 10px;
     padding: 10px;
 }
 
 .movie-card img {
     width: 100%;
-    max-height: 150px;
+    max-height: 350px;
 }
 
 #pagination {
     text-align: center;
     margin-top: 20px;
+}
+
+body{
+  background-color: rgb(143, 143, 143);
+  
 }
